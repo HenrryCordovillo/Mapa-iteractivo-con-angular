@@ -8,27 +8,15 @@ body {
 
 .mapdiv path {
   stroke: #faf0e6;
+  stroke-width: 1px;
+  opacity: 0.5;
+}
+
+.mapdiv :hover {
+  fill: #172a1f;
+  cursor: pointer;
+  opacity: 1;
+  stroke: #eb7600;
   stroke-width: 2px;
 }
 
-#Zona1 {
-  fill: #D98880;
-}
-
-#Zona2 {
-  fill: #9B59B6;
-}
-
-#Zona3 {
-  fill: #1F618D;
-}
-
-#Zona4 {
-  fill: #0E6251;
-}
-#Zona5 {
-  fill: #1E8449;
-}
-#Zona6 {
-  fill: #F1C40F;
-}
